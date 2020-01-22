@@ -1,0 +1,68 @@
+h1, .missao{
+    font-family: Tahoma;
+}
+
+#titulo{
+    color: #f00;
+}
+/*p {
+    color: blue;
+}*/
+.introducao strong {
+    color: blueviolet;
+}
+
+.introducao{
+    color: orange;
+}
+/*---------------------*/
+.caixa1 {
+    background-color: blue;
+    color: white;
+}
+
+.caixa2{
+    background-color: rgb(255, 0, 255);
+    color: rgb(0, 0, 0);
+}
+
+.caixa3{
+    background-color: rgb(255, 200, 0);
+    color: rgb(255, 255, 255);
+}
+
+.caixa4{
+    background-color: #ff00c8;
+    color: #ddff00;
+}
+
+.caixa5{
+    background-color: #df0;
+    color: #7731B2;
+}
+/*---------------------*/
+.nome {
+    color: #f00;
+
+    /*
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    */
+
+    /*Atalho para todos as propriedades acima*/
+    font: italic bold 12px "Arial";
+    text-decoration: underline;
+    text-align: center;
+}
+
+.line{
+    font: italic bold 12px "Tahoma";
+    text-decoration: line-through;
+    text-align: right;
+}
+
+.segmento{
+    font-family: Palatino, serif;
+}
