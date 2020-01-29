@@ -32,3 +32,23 @@ footer {
 .clearfix{
     clear: both;
 }
+
+/*------introdução aula pseudo-elemento---------*/
+article > p::first-letter {
+    font-size: 60px;
+    color: red;
+}
+
+h1::before{ /*adiciona um texto antes*/
+    content: "Titulo: ";
+}
+
+h1::after{
+    content: " - Artigo";
+}
+
+article::after{
+    content: "";
+    display: block;
+    clear: both;;
+}
