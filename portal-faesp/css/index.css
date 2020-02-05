@@ -56,3 +56,43 @@ header .restrita{
     color: #fff;
     text-decoration: none;
 }
+
+.conteudo-principal{
+    width: 940px;
+    margin: 20px auto;
+}
+
+.banners{
+    border: 1px solid red;
+    display: inline-block;
+    width: 68%;
+    height: 438px;
+    margin-right: 5px;
+}
+
+.noticias{
+    border: 1px solid black;
+    display: inline-block;
+    width: 28%;
+    height: 438px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 335px;
+}
+
+.noticias-header a{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00863a;
+}
+
+.noticias li {
+    list-style: none;
+}
+
+.noticias li a{
+    text-decoration: none;
+}
