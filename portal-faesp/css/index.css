@@ -1,3 +1,7 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .nav-inicial{
     width: 940px;
     margin: 0 auto;
@@ -49,7 +53,6 @@ header .restrita{
     margin-right: 25px;
     position: relative;
     left: 25%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .divisao li a{ 
@@ -77,22 +80,107 @@ header .restrita{
     height: 438px;
     margin-left: 5px;
     position: relative;
-    bottom: 335px;
+    bottom: 110px;
 }
 
 .noticias-header a{
     display: inline-block;
     width: 100%;
-    border: 1px solid black;
+    border-bottom: 1px solid #00863a;
     text-align: center;
     text-transform: uppercase;
     color: #00863a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.noticias-header a:hover{
+    text-decoration: underline;
+}
+
+.noticias span{
+    background-color: #e24d00;
+    border-radius: 3px;
+    padding: 1px 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 10.5px;
 }
 
 .noticias li {
     list-style: none;
+    border-bottom: 1px solid #00863a;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    position: relative;
+    right: 15px;
 }
 
 .noticias li a{
     text-decoration: none;
+    color: #00863a;
+    display: block;
+}
+
+.noticias li a:hover{
+    text-decoration: underline;
+}
+
+.indicadores{
+    position: absolute;
+    top: 650px;
+    width: 920px;
+    margin: 0 auto;
+    background-color: #00863a;
+    font-size: 12px;
+}
+
+.indicadores-lista li{
+    display: inline-block;
+}
+
+.indicadores-lista-primeiro{
+    background-color: #00863a;
+    text-transform: uppercase;
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    right: 30px;
+}
+
+.indicadores-lista-demais{
+    display: inline-block;
+    background-color: #449d44;
+    color: white;
+    border-radius: 2px;
+    padding: 3px;
+    margin-right: 2px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+}
+
+.indicadores-lista-link{
+    background-color: #e24d00;
+    padding: 5px;
+    border-radius: 3px;
+    position: relative;
+    left: 150px;
+}
+
+.indicadores-lista-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.pequenos-banners--lista li{
+    display: inline-block;
+}
+
+.pequenos-banners--lista li img{
+    width: 93px;
+    height: 125px;
+    padding: 18px;
 }
