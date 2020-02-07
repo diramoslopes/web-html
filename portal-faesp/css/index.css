@@ -1,5 +1,6 @@
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eaf0d6;
 }
 
 .nav-inicial{
@@ -187,4 +188,55 @@ header .restrita{
     padding: 5px;
     position: relative;
     right: 15px;
+}
+
+.tres-artigos--item{
+    border: 1px solid white;
+    background-color: white;
+    display: inline-block;
+    width: 300px;
+    height: 410px;
+    margin: 4px;
+}
+
+.tres-artigos--item header{
+    border-bottom: 1px solid #00863a;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+.tres-artigos--item header a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #00863a;
+    font-size: 17px;
+    margin: 15px;
+}
+
+.tres-artigos--item header a:hover{
+    text-decoration: underline;
+}
+
+.tres-artigos--item main span{
+    background-color: #e24d00; 
+    color: white;   
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px;
+    margin: 15px;
+    border-radius: 2px;
+}
+
+.tres-artigos--item main a{
+    display:block;
+    margin: 5px 15px;
+    text-decoration: none;
+    color: #00863a;
+    border-bottom: 1px solid #c4f1d7;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.tres-artigos--item main a:hover{
+    text-decoration: underline;
 }
