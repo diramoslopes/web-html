@@ -286,3 +286,29 @@ header .restrita{
     border-radius: 2px;
     text-transform: uppercase;
 }
+
+footer{
+    width: 940px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+footer h4{
+    color: #00863a;
+}
+
+footer input{
+    padding: 10px;
+    line-height: 1.4;
+    border: none;
+    border-radius: 2px;
+}
+
+footer button{
+    background-color: #00863a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
