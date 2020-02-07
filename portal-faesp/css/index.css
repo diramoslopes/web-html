@@ -31,6 +31,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     color: #e24d00;
+    font-size: 14px;
 }
 
 .menu-cabecalho li a:hover{
@@ -43,11 +44,12 @@ header .restrita{
     color: white;
     padding: 10px;
     border-radius: 5px;
+    border: none;
 }
 
 .divisao{
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #00863a;
     background-color:#00863a;
     text-align: left;
 }
@@ -72,7 +74,7 @@ header .restrita{
 }
 
 .banners{
-    border: 1px solid red;
+    border: 1px solid white;
     display: inline-block;
     width: 68%;
     height: 438px;
@@ -246,4 +248,41 @@ header .restrita{
 
 .tres-artigos--item main a:hover{
     text-decoration: underline;
+}
+
+.vermais{
+    width: 1200px;
+}
+
+.vermais-lista li{
+    margin-left: 15px;
+    display: inline-block;
+    width: 262px;
+    height: 320px;
+    background-color: white;
+    position: relative;
+    right: 145px;
+}
+
+.vermais-lista li h3{
+    color: #e24d00;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.vermais-lista li p{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.vermais-lista li button{
+    margin-left: 98px;
+    color: white;
+    background-color: #e24d00;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
 }
